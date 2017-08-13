@@ -1,0 +1,37 @@
+do not imitate, understand!
+
+syntax parser: interpreters?
+execution context: where something sits physically in the code
+lexical environment
+
+name/value pair: name can be defined more than once, but only can have only one value in any given context
+Address = 'NY' is a name/value pair
+
+object is collection of name value pairs
+
+Address:
+  {
+
+        Street: 'Main',
+        Number: 100,
+        Apartment:
+        {
+          Floor: 3,
+          Number: 102
+        }
+  }
+
+global execution context, global object and special variable called this
+
+execution context: global object, this, outer environment, your code
+
+hoisting: functions are existing in memory, so they can be accessed
+all variables and functions are initially set to undefined!!!
+
+single threaded one command at a time!
+synchronous execution: one line at a time!
+
+execution stack one on top of each other on top of each other;
+every time a function is called, a new execution context is created;
+
+variable environment: where variable lives
