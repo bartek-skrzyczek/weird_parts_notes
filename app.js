@@ -14,8 +14,6 @@ console.log(myVar);
 a();
 console.log(myVar);
 
-1
-undefined
 var myVar = 2;
 b();
 console.log(myVar);

@@ -35,3 +35,9 @@ execution stack one on top of each other on top of each other;
 every time a function is called, a new execution context is created;
 
 variable environment: where variable lives
+
+scope chain: every execution context has a reference to its outer environment
+
+Lexical Environment is the environment of the function where it is written. That is, the static order/place where it is situated, regardless from where it is called from.
+Scope of a variable/function is basically the locations from where a variable is visible/accessible.
+Execution context is the status of the execution stack at any point during runtime. That is the current execution context.
